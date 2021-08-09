@@ -6,8 +6,22 @@
     padding: 0px;
  }
 
- main {
-     font-size: 14px;
+ html {
+     font-size: 16px;
+ }
+
+ h2 {
+     font-size: 1.9rem;
+     font-weight: 900;
+ }
+
+ h3 {
+     font-size: 1.5rem;
+     font-weight: 600;
+ }
+
+ p {
+     line-height: 1.75rem;
  }
 
  /* Header */
@@ -86,3 +100,89 @@ h1 {
     text-shadow: 5px 5px 10px black;
 }
 
+/* features section */
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+    height: 48rem;
+}
+
+.features div {
+    max-width: 30%;    
+}
+
+.features div * {
+    margin: 2rem;
+}
+
+.features div img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.features {
+    text-align: center;
+}
+
+.features hr {
+    border-top: black 2px solid;
+}
+
+/* applications of MolEvo section */
+
+.applications .app-head {
+    padding: 3rem;
+    padding-bottom: 0rem;
+}
+
+.column2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column2 * {
+    padding: 1rem 1.5rem;
+}
+
+/* our mission section */
+
+.mission {
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    justify-content: space-between;
+}
+
+.mission div {
+    max-width: 50%;
+    padding: 0 1.5rem;
+}
+
+.mission img {
+    max-width: 100%;
+    
+}
+
+/* footer */
+
+.footer { 
+    margin-top: 3rem;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    max-width: 100%;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
